@@ -1,0 +1,2 @@
+﻿public record CourseCreateDto(string Title, string? Description, decimal Price, string Status = "draft");
+public record CourseOutDto(long Id, string Title, string? Description, long AuthorId, decimal Price, string Status);
